@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter_app_bloc_kata_sec/counter_event.dart';
 
 class CounterBloc {
-  int _counter;
+  int _counter = 0;
 
   // for state output
   final StreamController _counterStateController = StreamController<int>();
